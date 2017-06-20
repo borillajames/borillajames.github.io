@@ -1,0 +1,157 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    .text-center-md {
+        text-align: center;
+    }
+}
+
+.modal {
+  top: 30%;
+}
+
+a:focus {
+  outline: none;
+}
+
+.card-block {
+  height: 16rem;
+}
+
+/* Navigation */
+
+.brand-logo {
+  max-width: 2rem;
+  margin-top: -4px;
+  margin-right: .2rem;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1b1919;
+}
+
+footer.page-footer {
+    background-color: #3c4f74;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+/* Call to action */
+
+.flex-center {
+    color: #fff;
+}
+
+.view {
+    background: url("/images/hero-image.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* Training Philosophy Section */
+#about {
+  padding-bottom: 4rem;
+}
+
+.portrait-div {
+  display: flex;
+  justify-content: center;
+}
+
+#beau-portrait {
+  max-height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.quotes {
+  display: none;
+}
+
+/* Streak Section */
+
+.streak {
+  background-image: url("/images/streak-01.jpg");
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 275px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+/* Packages Section */
+#packages {
+  margin-bottom: 3rem;
+}
+
+#hr-white {
+  border-color: white;
+}
+
+/* card separator (mobile) */
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-block-highlight {
+  background-color: #70b6d8;
+}
+
+.card-text-highlight {
+  color: white;
+}
+
+/* Footer Section */
+footer.page-footer {
+  background-color: #1b1919;
+}
+
+/* Contact Section */
+
+.overlay-google-maps {
+   background:transparent;
+   position:relative;
+   z-index: 1;
+   height:300px; /* your iframe height */
+   top:300px;  /* your iframe height */
+   margin-top:-300px;  /* your iframe height */
+}
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1C2331;
+}
+
+ul.text-center {
+  margin-top: .5rem;
+}
